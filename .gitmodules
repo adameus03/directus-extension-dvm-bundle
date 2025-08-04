@@ -1,0 +1,6 @@
+[submodule "src/directus-extension-dvm-endpoint"]
+	path = src/directus-extension-dvm-endpoint
+	url = https://github.com/adameus03/directus-extension-dvm-endpoint
+[submodule "src/directus-extension-dvm-module"]
+	path = src/directus-extension-dvm-module
+	url = https://github.com/adameus03/directus-extension-dvm-module

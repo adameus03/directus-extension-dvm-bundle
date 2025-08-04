@@ -18,7 +18,18 @@
 			"app": "dist/app.js",
 			"api": "dist/api.js"
 		},
-		"entries": [],
+		"entries": [
+		  {
+		    "type": "endpoint",
+		    "name": "directus-extension-dvm-endpoint",
+		    "source": "src/directus-extension-dvm-endpoint/src/index.ts"
+		  }, 
+		  {
+		    "type": "module",
+		    "name": "directus-extension-dvm-module",
+		    "source": "src/directus-extension-dvm-module/src/index.ts"
+		  }
+		],
 		"host": "^10.10.0"
 	},
 	"scripts": {
