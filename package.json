@@ -19,16 +19,16 @@
 			"api": "dist/api.js"
 		},
 		"entries": [
-		  {
-		    "type": "endpoint",
-		    "name": "directus-extension-dvm-endpoint",
-		    "source": "src/directus-extension-dvm-endpoint/src/index.ts"
-		  }, 
-		  {
-		    "type": "module",
-		    "name": "directus-extension-dvm-module",
-		    "source": "src/directus-extension-dvm-module/src/index.ts"
-		  }
+			{
+				"type": "endpoint",
+				"name": "directus-extension-dvm-endpoint",
+				"source": "src/directus-extension-dvm-endpoint/src/index.ts"
+			},
+			{
+				"type": "module",
+				"name": "directus-extension-dvm-module",
+				"source": "src/directus-extension-dvm-module/src/index.ts"
+			}
 		],
 		"host": "^10.10.0"
 	},
@@ -41,5 +41,10 @@
 	},
 	"devDependencies": {
 		"@directus/extensions-sdk": "15.0.0"
+	},
+	"dependencies": {
+		"node": "^22.18.0",
+		"openpgp": "^6.2.0",
+		"sass": "^1.89.2"
 	}
 }
